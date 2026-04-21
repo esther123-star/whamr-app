@@ -84,6 +84,11 @@ button {
   font-family: inherit;
 }
 
+/* CRITICAL: the HTML `hidden` attribute must always win over display rules */
+[hidden] {
+  display: none !important;
+}
+
 /* ============================================
    header
    ============================================ */
